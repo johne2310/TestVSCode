@@ -9,7 +9,7 @@ import { Observable } from 'rxjs/Rx';
 export class AppComponent {
 
   constructor() {
-    let obsv = Observable
+    let obs = Observable
       .interval(1000)
       .take(5)
       .map(a => a * 4);
